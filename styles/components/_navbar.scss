@@ -1,4 +1,6 @@
 @import "../abstract/variables";
+@import "./buttons";
+@import "./notification";
 
 .nav-container{
   width: 100%;
@@ -34,5 +36,13 @@
     font-size: $body-size;
     cursor: pointer;
   }
-  
+}
+.notification{
+  position: absolute;
+  left: 399px;
+  top:-45px;
+  .notification-text{
+    left:8;
+    top:-2;
+  }
 }
