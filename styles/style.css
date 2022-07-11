@@ -1,1 +1,108 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../../fonts/SFPRODISPLAYREGULAR.OTF");
+}
+html, body {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 18px;
+  color: #606060;
+  text-align: left;
+  font-weight: 400;
+  margin: 0 0;
+  width: 1440px;
+}
+
+h1 {
+  font-size: 92px;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+a {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  width: 100%;
+  height: 128px;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1296px;
+  height: 64px;
+  padding-left: 72px;
+  padding-top: 64px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  width: 159px;
+  height: 40px;
+}
+
+.nav-menu {
+  width: 392px;
+  height: 24px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-items a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #606060;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-button {
+  background-color: #232340;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.35s;
+  width: 180px;
+  height: 64px;
+  cursor: pointer;
+}
+.contact-button:hover {
+  border-width: 2px;
+  border-style: solid;
+  transform: scale(1.05);
+  background-color: #fff;
+  color: #232340;
+}
+
+.notification {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(#3a8fff, #0837ae);
+}
+.notification .notification-text {
+  position: absolute;
+  top: -2px;
+  left: 8px;
+  height: 18px;
+  width: 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+@import "../abstract/variables";
+.contact-button {
+  background-color: $dark-color;
+  color: $secondary-color;
+  font-size: $body-size;
+  border: none;
+  border-radius: 8px;
+  transition: all .35s;
+  width: 180px;
+  height: 64px;
+  cursor: pointer;
+  &:hover {
+    border-width: 2px;
+    border-style: solid;
+    transform: scale(1.05);
+    background-color: $secondary-color;
+    color: $dark-color;
+  }
+  
+}

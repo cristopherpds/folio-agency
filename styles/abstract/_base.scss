@@ -1,0 +1,28 @@
+@import '../abstract/variables';
+
+@font-face {
+  font-family: 'SF Pro Display';
+    src: url('../../fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+html, body{
+  font-family: $font;
+  font-size: $body-size;
+  color: $primary-color;
+  text-align: left;
+  font-weight: 400;
+  margin: 0 0;
+  width: 1440px;
+}
+h1{
+  font-size: $h1-size;
+}
+h2{
+  font-size: $h2-size;
+}
+a{
+  cursor: pointer;
+}
+img{
+  width: 100%;
+}

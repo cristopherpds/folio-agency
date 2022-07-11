@@ -1,0 +1,23 @@
+@import "../abstract/variables";
+
+.notification {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(#3a8fff, #0837ae);
+  .notification-text {
+    position: absolute;
+    top: -2px;
+    left: 8px;
+    height: 18px;
+    width: 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
